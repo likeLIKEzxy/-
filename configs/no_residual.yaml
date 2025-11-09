@@ -1,0 +1,16 @@
+batch_size: 32
+num_epochs: 10
+lr: 3e-4
+weight_decay: 0.0
+
+d_model: 256
+nhead: 4
+num_encoder_layers: 3
+num_decoder_layers: 3
+dim_feedforward: 512
+
+remove_residual: true  # 🚫 取消残差连接
+
+data_dir: "data"
+save_dir: "results"
+model_path: "best_model.pt"
